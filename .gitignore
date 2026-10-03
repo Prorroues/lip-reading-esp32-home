@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 密钥与本地配置（不进版本库）
+.env
+.env.*
+!.env.example
+server/ai_config.json
+esp32/config.py
+
+# 运行时数据
+*.db
+iot_data.db
+data/*.csv
+
+# 编辑器 / 工具
+.idea/
+.vscode/
+.reasonix/
+.codegraph/
+.micropico
+reasonix.toml
+
+# 系统
+.DS_Store
+Thumbs.db
+__MACOSX/
